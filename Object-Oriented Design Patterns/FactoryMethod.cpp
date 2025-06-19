@@ -66,4 +66,11 @@ int main() {
 	cout << myCar->getType() << endl;   // "Car"
 	cout << myTruck->getType() << endl; // "Truck"
 	cout << myBike->getType() << endl;  // "Bike"
+
+	delete carFactory;
+	delete truckFactory;
+	delete bikeFactory;
+	delete myCar;
+	delete myTruck;
+	delete myBike;
 }
